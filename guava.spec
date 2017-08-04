@@ -7,7 +7,7 @@
 
 Name:           %{?scl_prefix}guava
 Version:        18.0
-Release:        10.1%{?dist}
+Release:        10.2%{?dist}
 Summary:        Google Core Libraries for Java
 License:        ASL 2.0
 URL:            https://github.com/google/guava
@@ -96,6 +96,9 @@ find . -name '*.jar' -delete
 %endif
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 18.0-10.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 18.0-10.1
 - Automated package import and SCL-ization
 
